@@ -17,4 +17,15 @@ This is the source code repository for the application REST API created as part 
 
 8) now since the terminal is free and you do not know whether your container is running, you can use the command 'docker ps' and the terminal will show you the currently running containers and you can still access the application from localhost.
 
+
+Things you can do after opening the localhost server in your browser : 
+
+1) Append the current url with : /users to see the users data present in the database.
+
+2) Append the current url with : /users/:id like /users/4 to get the details of user with the ID : 4
+
+3) Append the current url with : /users/:id/address like users/2/address to get the address details of the user with ID : 2
+
+4) Append the current url with : /users/:id/address/geo like /users/3/address/geo to get the geolocation details of the user with ID : 3
+
 --This application uses a JSON file as a database for the API and fetches and displays data as we use different end points.
